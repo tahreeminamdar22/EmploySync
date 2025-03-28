@@ -124,8 +124,9 @@ Feel free to fork the repo, create a branch, and submit a PR.
 
 🔥 Contact
 📧 Email: tahreeminamdar2gmail.com
-🔗 GitHub: Your GitHub
-🌐 Portfolio: Your Portfolio
+
+🔗 GitHub: https://github.com/tahreeminamdar22/
+🌐 Portfolio: https://tahreeminamdar22.github.io/Portfolio/
 
 ⭐ Give it a Star!
 If you find this project helpful, consider giving it a ⭐ on GitHub!
