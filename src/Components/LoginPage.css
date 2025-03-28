@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Form box styling */
+  form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  }
+  
+  /* Form hover effect */
+  form:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #f0f0f0;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #ccc;
+  }
+  
+  /* Input fields */
+  input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #333;
+    color: #f0f0f0;
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Input focus effect */
+  input:focus {
+    outline: none;
+    border: 1px solid #764ba2;
+    box-shadow: 0 0 8px #764ba2;
+  }
+  
+  /* Button styling */
+  button {
+    background: #4caf50;   /* Green button */
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background: #45a049;
+    transform: translateY(-3px);
+  }
+  
+  /* Error message styling */
+  p {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Centered container styling */
+  .form-container > h1 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  

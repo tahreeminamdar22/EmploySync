@@ -1,0 +1,74 @@
+/* EditForm.css */
+
+.edit-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 10px;
+    z-index: 999;
+    width: 90%;
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form title */
+  .edit-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form fields */
+  .edit-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-form label {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .edit-form input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+  }
+  
+  .edit-form input:focus {
+    border: 1px solid #007bff;
+    outline: none;
+  }
+  
+  /* Form buttons */
+  .edit-form button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .edit-form button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Save and Cancel buttons */
+  .edit-form button[type="submit"] {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .edit-form button[type="button"] {
+    background: #dc3545;
+    color: #fff;
+  }
+  
