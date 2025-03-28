@@ -1,4 +1,4 @@
-#🚀 EmploySync
+# 🚀 EmploySync
 ##Sync. Manage. Empower.
 
 EmploySync is a sleek and efficient React.js-based employee management app that allows you to:
