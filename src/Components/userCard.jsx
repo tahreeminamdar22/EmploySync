@@ -6,7 +6,7 @@ const UserCard = ({user, onDelete, onEdit}) => {
             <h2>{user.first_name} { user.last_name}</h2>
             <p>{user.email}</p>
 
-            <button onClick={onEdit}>Edit</button>
+            <button className="edit" onClick={onEdit}>Edit</button>
             <button onClick={onDelete}>Delete</button>
             </div>
     );
