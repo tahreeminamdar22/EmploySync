@@ -138,15 +138,11 @@
   .card h3 {
     font-size: 18px;
   }
-  .card button:first-child {
-    width: 50%; 
-  }
-
   .card button:last-child {
-    width: 300px; 
+    width: 50%
   }
-  .card-buttons button {
-    padding: 5px 10px;
+  .card button { 
+    padding: 0px;
     width: 50%;
   }
 
