@@ -1,5 +1,5 @@
 # 🚀 EmploySync
-##Sync. Manage. Empower.
+## Sync. Manage. Empower.
 
 EmploySync is a sleek and efficient React.js-based employee management app that allows you to:
 
@@ -21,7 +21,7 @@ Stores the authentication token in localStorage.
 
 Redirects to the User List page on successful login.
 
-###✅ User List
+### ✅ User List
 Displays a paginated list of users.
 
 Each card displays:
